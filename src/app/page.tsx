@@ -44,6 +44,23 @@ export default function HomePage() {
                   same city and dates — verified with a real ticket.
                 </p>
 
+                {/* <div className="relative z-50 max-w-7xl mx-auto px-6 py-28">"
+                  
+                  <Link
+                    href="/signup"
+                    onClick={() => console.log("Button clicked")}
+                    className="inline-flex items-center justify-center rounded-lg bg-emerald-500 px-6 py-3 font-medium text-white shadow hover:bg-emerald-600 transition cursor-pointer"
+                      >
+                    Get started free
+                  </Link>
+
+                  <a
+                    href="#how-it-works"
+                    className="inline-flex items-center justify-center rounded-lg border border-slate-200 dark:border-white/40 px-6 py-3 font-medium text-slate-900 dark:text-white hover:bg-slate-50 dark:hover:bg-white/10 transition cursor-pointer"
+                  >
+                    See how it works
+                  </a>
+                </div> */}
                 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                   <Link
                     href="/signup"
@@ -61,7 +78,8 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="relative flex justify-center md:justify-end overflow-visible">
+              {/* <div className="relative flex justify-center md:justify-end overflow-visible"> */}
+              <div className="relative flex justify-center md:justify-end overflow-visible pointer-events-none">
                 <div className="absolute -right-40 top-1/2 -translate-y-1/2">
                   <Image
                     src="/newhero.png"
