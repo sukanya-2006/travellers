@@ -79,7 +79,7 @@ export default function HomePage() {
               </div>
 
               {/* <div className="relative flex justify-center md:justify-end overflow-visible"> */}
-              <div className="relative flex justify-center md:justify-end overflow-visible pointer-events-none">
+              {/* <div className="relative flex justify-center md:justify-end overflow-visible pointer-events-none">
                 <div className="absolute -right-40 top-1/2 -translate-y-1/2">
                   <Image
                     src="/newhero.png"
@@ -90,7 +90,19 @@ export default function HomePage() {
                     className="w-[1000px] md:w-[1400px] max-w-none drop-shadow-2xl"
                   />
                 </div>
-              </div>
+              </div> */}
+              <div className="relative flex justify-center md:justify-end overflow-visible pointer-events-none mt-10 md:mt-0">
+  <div className="static md:absolute md:-right-40 md:top-1/2 md:-translate-y-1/2">
+    <Image
+      src="/newhero.png"
+      alt="Travellers connecting"
+      width={2000}
+      height={1500}
+      priority
+      className="w-full max-w-xs mx-auto md:mx-0 md:w-[1000px] lg:w-[1400px] md:max-w-none drop-shadow-2xl"
+    />
+  </div>
+</div>
             </div>
           </div>
         </section>
